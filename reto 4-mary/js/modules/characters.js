@@ -11,10 +11,10 @@ const characters = () => {
       const { id, name, status, species, type, gender, origin, location, image } = element;
 
       charactersContainer.innerHTML += `
-        <div class="col-md-4" key=${id}>
-          <div class="card bg-dark border border-2 border-light border-opacity-25 h-100 mx-auto"
+        <div class="col-md-4" key=${id} >
+          <div class="card bg-dark border border-4 border-info border-opacity-25 h-100 mx-auto"
             style="width: min(100%, 18rem);">
-            <div class="card-header text-center">
+            <div class="card-header text-primary text-center">
               ${name}
             </div>
             <div class="card-body">
@@ -25,7 +25,7 @@ const characters = () => {
               <p class="card-text">
                 <span class="badge text-bg-info">${status}</span>
                 <span class="badge text-bg-primary">${species}</span>
-                <span class="badge text-bg-secondary">${gender}</span>
+                <span class="badge text-bg-danger">${gender}</span>
               </p>
               <p class="card-text"><span class="text-info fw-bold">Origen:</span> ${origin.name}</p>
               <p class="card-text"><span class="text-info fw-bold">Ubicación:</span> ${location.name}</p>
@@ -33,6 +33,9 @@ const characters = () => {
             <div class="card-footer text-center">
               <a href="${image}" target="_blank" rel="noopener noreferrer" class="card-link">Descargar imagen</a>
             </div>
+
+
+
           </div>
         </div>
       `;
