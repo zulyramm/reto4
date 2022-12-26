@@ -12,7 +12,7 @@ const characters = () => {
 
       charactersContainer.innerHTML += `
         <div class="col-md-4" key=${id} >
-          <div class="card bg-dark border border-4 border-info border-opacity-25 h-100 mx-auto"
+          <div class="card bg-dark border border-4 border-info  h-100 mx-auto"
             style="width: min(100%, 18rem);">
             <div class="card-header text-primary text-center">
               ${name}
