@@ -1,0 +1,49 @@
+export const comidas =[
+
+    {
+       "id":0,
+        "name":"ajii",
+        "description": "xddddddddddddddddddddddddddddddddddd",
+        "urlImage": "https://rapirecetas.net/wp-content/uploads/2021/01/Aji-de-Gallina.jpg ",
+        "urlRecipes":" https://rapirecetas.net/aji-de-gallina/",
+        "bc": "btn btn-danger"
+
+    },
+    {
+        "id":1,
+         "name":"pollo a la brasa",
+         "description": "xddddddddddddddddddddddddddddddddddd",
+         "urlImage": "https://imgmedia.buenazo.pe/650x358/buenazo/original/2021/07/17/60ebacddccd27953a47344f4.jpg",
+         "urlRecipes":"https://buenazo.pe/notas/2021/07/17/mitos-verdades-pollo-brasa-424"
+         
+ 
+     },
+
+     {
+        "id":2,
+         "name":"lomo saltado",
+         "description": "xddddddddddddddddddddddddddddddddddd",
+         "urlImage": "https://buenazo.cronosmedia.glr.pe/original/2020/09/04/5f52b708fee0115b680be9d9.jpg",
+         "urlRecipes":"https://buenazo.pe/recetas/platos-de-fondo/lomo-saltado-ingredientes-preparacion-61"
+         
+ 
+     },
+     {
+        "id":3,
+         "name":"chicharon",
+         "description": "xddddddddddddddddddddddddddddddddddd",
+         "urlImage": "https://i.pinimg.com/736x/7b/0a/b9/7b0ab9427b4195ec0eebac4c5d82dcd8--chicharrones-los.jpg",
+         "urlRecipes":"https://www.recetasgratis.net/receta-de-chicharron-de-chancho-75361.html"
+         
+ 
+     },
+     {
+        "id":4,
+         "name":"pastel de papa",
+         "description": "xddddddddddddddddddddddddddddddddddd",
+         "urlImage": "https://comidasperuanas.net/wp-content/uploads/2020/01/Pastel-de-papa-peruano.webp",
+         "urlRecipes":"https://comidasperuanas.net/pastel-de-papa/"
+         
+ 
+     }
+]
